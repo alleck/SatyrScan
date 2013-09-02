@@ -1,3 +1,20 @@
-SatyrScan Manuel
+====================
+SatyrScan Manual  ||
+====================
 
+Please read to understand how to use SatyrScan
 
+*** Version Note: This version only finds spam creating scripts using the Exim mail logs. ****
+
+To install the scanner:
+1: Unzip the file inside of the /home directory.
+
+To start the scanner:
+1: run "sh findvirs.sh"
+2: The scanner will then start and populate the needed files.
+   *** Note: If you have trouble with this part, try running the command again as "sudo sh findvirs.sh". You will need the root password though.
+3: Once the scan has finished it will ask you if you want to delete the files it found.
+4: Choose yes or no.
+
+***Note: If you choose "NO", then the file locations are stored in a file called "virloc.source"
+***Note: If you wish to delete the files after saying "NO", Rather than running the script again, run "sh removevirs.sh".
