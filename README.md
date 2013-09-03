@@ -1,5 +1,4 @@
-=============
-# SatyrScan #
+SatyrScan
 =============
 
 SatyrScan is an open source, virus and spam scanner for CentOS and RedHat.
