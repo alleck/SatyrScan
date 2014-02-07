@@ -23,7 +23,7 @@ echo -e "\033[35mFinding Scripts... \033[0m"
 #Get script locations
 while read line
 do
-        grep -lE -R --exclude="virs.source" "$line" /var/games/* >> sourcefiles/virloc.source
+        grep -lE -R --exclude="virs.source" "$line" /home/* >> sourcefiles/virloc.source
 
 done < virs.source
 
