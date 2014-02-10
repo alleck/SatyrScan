@@ -31,7 +31,7 @@ proc2=$process
 while read line
 do
         echo $process
-        grep -lE -R --exclude="virs.source" "$line" /var/games/* >> sourcefiles/virloc.source
+        grep -lE -R --exclude="virs.source" "$line" /home*/*/public_html/* >> sourcefiles/virloc.source
         process=$(bc -l <<< "scale = 2; $process + $proc2")
 
 
