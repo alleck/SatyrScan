@@ -40,7 +40,7 @@ do
 #Get script locations
 while read line
 do
-        echo $process
+        echo -ne "$process \r"
         grep -lE -R --exclude="virs.source" "$line" $dirs  >> sourcefiles/virloc.source
         process=$(bc -l <<< "scale = 2; $process + $proc2")
 
