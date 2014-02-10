@@ -46,12 +46,14 @@ sed -e 's/ /\\\ /g' virus.local >> virus.local
 echo " "
 read -p "Do you wish to REMOVE the infected files? " remove
 
-        if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]; then
+        if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]
+        then
         echo -e "\033[31m"
         read -p "ARE YOU SURE YOU WISH REMOVE THE INFECTED FILES? "
         echo -e "\033[0m"
 
-                if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]; then
+                if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]
+                then
 
                 cat virus.local | xargs rm -f
 
