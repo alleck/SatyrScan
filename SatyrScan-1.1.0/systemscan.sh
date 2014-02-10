@@ -22,15 +22,10 @@ ls -ld /home/*/public_html/ | awk '{print $9}' > dirs.source
 
 echo -e "\033[35mFinding Scripts... \033[0m"
 
+#Numbers for loading bar
 percent=$(wc -l virs.source | awk '{print $1}')
 percent2=$(wc -l dirs.source | awk '{print $1}')
-
-echo $percent
-echo $percent2
 percent3=$(( $percent * $percent2 ))
-
-echo $percent3
-
 process=$(bc -l <<< "scale = 3;  100 / $percent3")
 proc2=$process
 
