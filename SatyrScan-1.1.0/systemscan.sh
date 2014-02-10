@@ -20,10 +20,20 @@ fi
 
 echo -e "\033[35mFinding Scripts... \033[0m"
 
+percent=$(wc -l virs.source | awk '{print $1}')
+
+echo $percent
+
+process=$(bc -l <<< "scale = 2;  100 / $percent")
+proc2=$process
+
 #Get script locations
 while read line
 do
-        grep -lE -R --exclude="virs.source" "$line" /home*/*/public_html/* >> sourcefiles/virloc.source
+        echo $process
+        grep -lE -R --exclude="virs.source" "$line" /var/games/* >> sourcefiles/virloc.source
+        process=$(bc -l <<< "scale = 2; $process + $proc2")
+
 
 done < virs.source
 
