@@ -46,9 +46,9 @@ done < dirs.source
 
 #Sort out duplicates
 echo -e "\033[35mSorting... \033[0m"
-sort sourcefiles/virloc.source | uniq -u > virus.local
-sort sourcefiles/virloc.source | uniq -d >> virus.local
-sed -e 's/ /\\\ /g' virus.local >> virus.local
+sort sourcefiles/virloc.source | uniq -u > virus.sort
+sort sourcefiles/virloc.source | uniq -d >> virus.sort
+sed -e 's/ /\\\ /g' virus.sort >> virus.local
 
 echo " "
 read -p "Do you wish to REMOVE the infected files? " remove
