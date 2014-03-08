@@ -9,7 +9,7 @@ Please read to understand how to use SatyrScan
 =========================================
 To install the scanner:
 1: run "cd /home"
-2: run "wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.1.0/install.sh && sh install.sh"
+2: run "wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh && sh install.sh"
 
 =========================================
 To start the SatyrScan Spam Scanner:
