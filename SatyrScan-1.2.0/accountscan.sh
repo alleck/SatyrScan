@@ -18,11 +18,6 @@ percent=$(wc -l virs.source | awk '{print $1}')
 process=$(bc -l <<< "scale = 3;  100 / $percent")
 proc2=$process
 
-echo $acct
-
-while read dirs
-do
-
 #Get script locations
 while read line
 do
@@ -32,8 +27,6 @@ do
 
 
 done < virs.source
-
-done < dirs.source
 
 #Sort out duplicates
 echo -e "\033[35mSorting... \033[0m"
