@@ -13,6 +13,7 @@ wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/config.sh
 echo -ne '################          (66%)\r'
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/mailscan.sh --no-check-certificate
 echo -ne '###################       (77%)\r'
+wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/version.txt --no-check-certificate
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/removevirs.sh --no-check-certificate
 echo -ne '######################    (88%)\r'
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/removespam.sh --no-check-certificate
