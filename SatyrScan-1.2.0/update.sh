@@ -1,3 +1,14 @@
+var1=$(cat vrtest)
+var2=$(cat version.txt)
+
+echo $var1
+echo $var2
+
+if [ $var1 == $var2 ]
+then
+ echo "You are on the most up to date version: " $var1
+else
+ echo "Updating from " $var2 " to " $var1
 rm -f /home/sscan/accountscan.sh
 rm -f /home/sscan/config.sh
 rm -f /home/sscan/install.sh
@@ -12,3 +23,6 @@ rm -f /home/sscan/update.sh
 rm -f /home/sscan/version.txt
 rm -f /home/sscan/virs.source
 wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh --no-check-certificate && sh install.sh
+ echo "Update Complete!"
+
+fi
