@@ -1,4 +1,5 @@
-var1=$(cat vrtest)
+wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/version.txt --no-check-certificate /home/sscan/vrtest.inf
+var1=$(cat vrtest.inf)
 var2=$(cat version.txt)
 
 echo $var1
