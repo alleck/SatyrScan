@@ -6,6 +6,8 @@ Please read to understand how to use SatyrScan
 
 ***Version Note: This version features a full system scan for virus scripts, as well as a mail scanner that works off of the Exim mail logs. ****
 
+>>> Already installed this bad boy? Don't install, UPDATE :D <<<
+
 =========================================
 To install the scanner:
 1: run "cd /home"
