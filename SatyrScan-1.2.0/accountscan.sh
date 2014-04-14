@@ -40,7 +40,7 @@ read -p "Do you wish to REMOVE the infected files? " remove
         if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]
         then
         echo -e "\033[31m"
-        read -p "ARE YOU SURE YOU WISH REMOVE THE INFECTED FILES? "
+        read -p "ARE YOU SURE YOU WISH REMOVE THE INFECTED FILES? " remove
         echo -e "\033[0m"
 
                 if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]
