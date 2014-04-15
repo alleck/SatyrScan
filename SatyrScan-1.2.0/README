@@ -1,5 +1,5 @@
 ==========================
-# SatyrScan 1.1.0 Manual #
+# SatyrScan 1.2.0 Manual #
 ==========================
 
 Please read to understand how to use SatyrScan
@@ -26,8 +26,8 @@ To start the SatyrScan Spam Scanner:
 
 =========================================
 To start the SatyrScan Virus Scanner:
-1: run "sh systemscan.sh"
-2: The scanner will then start and populate the needed files.
+1: run "sh scan.sh"
+2: The scanner will then start in the mode defined in the <code>config.sh</code> file and populate the needed files.
    *** Note: If you have trouble with this part, try running the command again as "sudo sh systemscan.sh". You will need the root password though.
 3: Once the scan has finished it will ask you if you want to delete the files it found.
 4: Choose yes or no.
