@@ -23,7 +23,7 @@ while read line
 do
         echo -ne "$process \r"
         grep -lE -R --exclude="virs.source" "$line" /home*/$acct/public_html/*  >> sourcefiles/virloc.source
-        grep -lE -R --exclude="virs.source" "$line" /home*/$acct/public_html/.*  >> sourcefiles/virloc.source
+        grep -lE -R --exclude="virs.source" "$line" /home*/$acct/public_html/.[[:alnum:]]*  >> sourcefiles/virloc.source
         process=$(bc -l <<< "scale = 2; $process + $proc2")
 
 
