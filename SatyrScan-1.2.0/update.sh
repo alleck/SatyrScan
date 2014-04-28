@@ -20,9 +20,9 @@ rm -f /home/sscan/removespam.sh
 rm -f /home/sscan/removevirs.sh
 rm -f /home/sscan/scan.sh
 rm -f /home/sscan/systemscan.sh
-rm -f /home/sscan/update.sh
 rm -f /home/sscan/version.txt
 rm -f /home/sscan/virs.source
+
 wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh --no-check-certificate && sh install.sh
  echo "Update Complete!"
 
