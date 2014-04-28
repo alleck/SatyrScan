@@ -25,7 +25,7 @@ rm -f /home/sscan/virs.source
 
 wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/patch.sh --no-check-certificate && sh patch.sh
 
-rm -f upgrade.sh
+rm -f patch.sh
  echo "Update Complete!"
 
 fi
