@@ -1,4 +1,4 @@
-wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/version.txt --no-check-certificate /home/sscan/vrtest.inf
+wget -O /home/sscan/vrtest.inf -q https://raw.github/alleck/SatyrScan/master/SatyrScan-1.2.0/version.txt --no-check-certificate
 var1=$(cat vrtest.inf)
 var2=$(cat version.txt)
 
