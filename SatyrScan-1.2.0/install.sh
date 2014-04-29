@@ -1,4 +1,12 @@
+# mkdir /home/sscan
+# CW > test for '/home/scan' first
+
+if [ ! -d "/home/sscan" ]
+then
 mkdir /home/sscan
+chmod 755 /home/sscan
+fi
+
 cd /home/sscan
 echo -ne '###                       (11%)\r'
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/virs.source --no-check-certificate
