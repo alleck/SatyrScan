@@ -34,3 +34,8 @@ To start the SatyrScan Virus Scanner:
 
 ***Note: If you choose "NO", then the file locations are stored in a file called "virus.local"
 ***Note: If you wish to delete the files after saying "NO", Rather than running the script again, run "sh removespam.sh".
+
+=========================================
+
+If you are missing and version.txt file or and update.sh file, you can update SatyrScan by running the following command:
+"wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/upgrade.sh --no-check-certificate && sh upgrade.sh"
