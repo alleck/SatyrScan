@@ -13,5 +13,5 @@ It is fully intended for use with cPanel.
 
 ***Release Note: Version 1.2.0 - Release Date 02/25/2013: Added the ability to choose between system and accout scan mode. Added in an updater module.
 
-If you are missing and version.txt file or and update.sh file, you can update SatyrScan by running the following command: <br />
+If you are missing and version.txt file or an update.sh file, you can update SatyrScan by running the following command: <br />
 <code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/upgrade.sh --no-check-certificate && sh upgrade.sh</code>
