@@ -6,12 +6,12 @@ Please read to understand how to use SatyrScan
 
 ***Version Note: This version features a full system scan for virus scripts, as well as a mail scanner that works off of the Exim mail logs. ****
 
->>> Already installed this bad boy? Don't install, UPDATE :D <<<
+>> Already installed this bad boy? Don't install, UPDATE :D
 
 =========================================
 To install the scanner:
-1: run "cd /home"
-2: run "wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh --no-check-certificate && sh install.sh"
+1: run <code>cd /home</code>
+2: run <code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh --no-check-certificate && sh install.sh</code>
 
 =========================================
 To start the SatyrScan Spam Scanner:
@@ -45,4 +45,4 @@ It will replace all files that are currently installed with updated versions, if
 
 ***Note: If you are missing and version.txt file or an update.sh file, you can update SatyrScan by running the following command:
 
-"wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/upgrade.sh --no-check-certificate && sh upgrade.sh"
+<code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/upgrade.sh --no-check-certificate && sh upgrade.sh</code>
