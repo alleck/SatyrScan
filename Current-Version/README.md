@@ -7,12 +7,10 @@ Please read to understand how to use SatyrScan<br />
 ***Version Note: This version features a full system scan for virus scripts, as well as a mail scanner that works off of the Exim mail logs. ****<br />
 <br />
 >> Already installed this bad boy? Don't install, UPDATE :D
-
 =========================================
 To install the scanner:<br />
 1: run <code>cd /home</code> <br />
 2: run <code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/install.sh --no-check-certificate && sh install.sh</code><br />
-<br />
 =========================================
 To start the SatyrScan Spam Scanner:<br />
 1: run <code>sh mailscan.sh</code><br />
@@ -23,7 +21,6 @@ To start the SatyrScan Spam Scanner:<br />
 <br />
 ***Note: If you choose "NO", then the file locations are stored in a file called "virus.local"<br />
 ***Note: If you wish to delete the files after saying "NO", Rather than running the script again, run "sh removevirs.sh".<br />
-<br />
 =========================================
 To start the SatyrScan Virus Scanner:<br />
 1: run <code>sh scan.sh</code><br />
@@ -34,7 +31,6 @@ To start the SatyrScan Virus Scanner:<br />
 <br />
 ***Note: If you choose "NO", then the file locations are stored in a file called <code>virus.local</code><br />
 ***Note: If you wish to delete the files after saying "NO", Rather than running the script again, run <code>sh removespam.sh</code>.<br />
-<br />
 =========================================
 To update SatyrScan:<br />
 <br />
