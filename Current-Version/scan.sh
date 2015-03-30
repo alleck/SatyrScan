@@ -1,4 +1,5 @@
-source ./config.sh
+#!/bin/bash
+source ./inc/config.sh
 echo -e "\033[36m                                                   \033[0m"
 echo -e "\033[36m  _________          __                     _________                         \033[0m"
 echo -e "\033[36m /   _____/_____   _/  |_  ___.__._______  /   _____/  ____  _____     ____   \033[0m"
@@ -12,13 +13,13 @@ if [ $scantype = "1" ]
 then
 
 echo "Running in single account mode..."
-sh ./accountscan.sh
+sh ./inc/accountscan.sh
 
 elif [ $scantype = "2" ]
 then
 
 echo "Running in system scan mode..."
-sh ./systemscan.sh
+sh ./inc/systemscan.sh
 
 else
 

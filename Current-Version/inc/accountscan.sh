@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "Please enter cpanel username of account you wish to scan: " acct
 
 if [ ! -d "sourcefiles" ]

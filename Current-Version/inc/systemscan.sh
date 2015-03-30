@@ -1,3 +1,4 @@
+#!/bin/bash
 if [ ! -d "sourcefiles" ]
 then
 mkdir sourcefiles

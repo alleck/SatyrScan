@@ -1,3 +1,4 @@
+#!/bin/bash
 source ./config.sh
 echo -e "\033[36m                                                   \033[0m"
 echo -e "\033[36m  _________          __                     _________                         \033[0m"
@@ -32,7 +33,7 @@ echo -e "\033[35mGathering Keywords... \033[0m"
 	while read line
 	do
 	grep "$line" $mailloc | awk '{ print $5 }' >> sourcefiles/spamusers.source
-	done < keyword.source
+	done < inc/keyword.source
 
 echo -e "\033[35mSorting... \033[0m"
 sort sourcefiles/spamusers.source | uniq -d > sourcefiles/spamuserssort.source
