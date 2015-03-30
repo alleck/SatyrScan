@@ -43,12 +43,8 @@ It will replace all files that are currently installed with updated versions, if
 <br />
 ***Note: If you are missing and version.txt file or an update.sh file, you can update SatyrScan by running the following command:<br />
 <br />
-<<<<<<< HEAD
 <code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/inc/upgrade.sh --no-check-certificate && sh upgrade.sh</code>
-=======
-<code>wget https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/upgrade.sh --no-check-certificate && sh upgrade.sh</code>
 
 ---
 # Verson Release Notes #
 1.2.3 - Added much needed update to the virus database
->>>>>>> origin/master
