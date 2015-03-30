@@ -1,3 +1,4 @@
+#!/bin/bash
 read -p "Do you wish to REMOVE the infected files? " remove
 
         if [ $remove = "y" ] || [ $remove = "Y" ] || [ $remove = "yes" ] || [ $remove = "Yes" ]; then
