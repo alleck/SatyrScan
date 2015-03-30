@@ -21,6 +21,7 @@ wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/version.t
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/removevirs.sh --no-check-certificate
 echo -ne '########################  (99%)\r'
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/removespam.sh --no-check-certificate
+rm update.sh
 wget -q https://raw.github.com/alleck/SatyrScan/master/SatyrScan-1.2.0/update.sh --no-check-certificate
 echo -ne '##########################(100%)\r'
 echo -ne '\n'
